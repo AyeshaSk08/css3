@@ -6,6 +6,8 @@
     text-decoration-style: wavy;
     text-decoration-color: #f08080;
     color:#fb6f92;
+    margin: auto;
+    padding: 10px 20px;
 }
 .background {
     background-color: #f5f5dc;
@@ -13,7 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* optional but makes the image fill the area */
-    height: 100vh;
+     height: 100vh; /* viewport height */
     text-align: center;
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
@@ -26,7 +28,8 @@
 }
 .thank-you-btn {
   text-align: center;
-  border-style: outset;
+  font-style: italic;
+  border-style: dotted;
   border-color: #c9184A;
   border-width: 2px;
   border-radius: 5%;
@@ -35,5 +38,81 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  margin: 30px 20px;
+  padding:20px 20px;
   
 }
+  h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.box {
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  font-weight: bold;
+
+}
+
+/* Position Types */
+
+.static {
+  position: static;
+  background-color: #7bdff2;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: #b2f7ef;
+}
+
+.absolute-container {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 2px dashed white;
+  margin-bottom: 40px;
+}
+
+.absolute {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 250px;
+  height: 100px;
+  background-color: #eff7f6;
+  color: black;
+}
+
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ffb6b9;
+}
+
+.sticky-container {
+  height: 800px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #cdb4db;
+}
+
+.scroll-end {
+  margin-top: 600px;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
